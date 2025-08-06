@@ -81,6 +81,3 @@ This lab demonstrates how OSPF behaves in a multi-area design. It covers:
 - `/images`  
   Topology diagrams and any relevant visuals used in the lab.
 
-- `/verification`  
-  Sample commands and scripts to verify OSPF neighbor status, routing tables, and other troubleshooting steps.
-
