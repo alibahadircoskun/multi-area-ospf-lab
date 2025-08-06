@@ -27,7 +27,7 @@ This lab demonstrates how OSPF behaves in a multi-area design. It covers:
   - **Area 1**: R5, R7  
   - **Area 2**: R6, R8  
 
-![Topology](topology.png)
+![Topology](ospf-topology.png)
 
 ---
 
