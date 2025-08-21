@@ -12,9 +12,9 @@ In the lab, all OSPF neighbors formed successfully between routers, but hosts in
 
 ### Diagnosis
 
-- Verified neighbor adjacency using `show ip ospf neighbor` — all neighbors were up.  
-- Checked interface IPs and connectivity — no issues.  
-- Reviewed OSPF area assignments on interfaces — discovered that on some routers, interfaces connecting to Area 2 were mistakenly configured in Area 0.  
+- Verified neighbor adjacency using `show ip ospf neighbor`. All neighbors were up.  
+- Checked interface IPs and connectivity. No issues.  
+- Reviewed OSPF area assignments on interfaces. Discovered that on some routers, interfaces connecting to Area 2 were mistakenly configured in Area 0.  
 - This caused OSPF to establish neighbor adjacencies but routing information was not correctly shared between areas.
 
 ### Resolution
